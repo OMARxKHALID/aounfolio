@@ -9,8 +9,6 @@ import { CustomEase } from "gsap/CustomEase";
 import SplitType from "split-type";
 import { useAppDispatch } from "@/hooks/reduxHooks";
 import { setActiveSlide } from "@/redux/states/fullpageSlice";
-// import Lottie from "lottie-web";
-// import fullpage from "@fullpage/react-fullpage";
 
 const opts = {
   autoScrolling: true,

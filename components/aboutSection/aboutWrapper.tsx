@@ -1,13 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Magentic from "../ui/magentic";
 import { gsap } from "gsap";
-import { AboutMarquee } from "./aboutMarquee";
 import { links } from "@/data/data";
-import TestimonialCard from "./testimonialCard";
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
 import { isDesktop } from "@/lib/utils";
 
 export function AboutWrapper({}) {
@@ -106,7 +100,7 @@ export function AboutWrapper({}) {
           </p>
         </Magentic>
       </div>
-      {/* <AboutMarquee></AboutMarquee> */}
+
       <div className="customBorder anime mx-auto my-[1.5em] h-[2px] w-[calc(100%_-_20px)] self-start rounded-full bg-colorSecondaryLight opacity-30 "></div>
 
       <a
@@ -117,39 +111,6 @@ export function AboutWrapper({}) {
           <div className="anime">
             <h2 className="work_heading mask">{text.main}</h2>
           </div>
-          {/* <a href={links.work} className="work__cto anime">
-            <div className="left">
-              <svg
-                width="21"
-                height="6"
-                viewBox="0 0 21 6"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M0.5 2V4H14.5V6L20.5 3L14.5 0V2H0.5Z"
-                  fill="var(--colorLight)"
-                />
-              </svg>
-            </div>
-            <div className="center font-bold">
-              view all work<span className="yellow__it"> .</span>
-            </div>
-            <div className="right">
-              <svg
-                width="21"
-                height="6"
-                viewBox="0 0 21 6"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M0.5 2V4H14.5V6L20.5 3L14.5 0V2H0.5Z"
-                  fill="var(--colorLight)"
-                />
-              </svg>
-            </div>
-          </a> */}
         </div>
         <div className="section3__video overflow-hidden rounded-3xl bg-black md:rounded-[3rem]">
           <video

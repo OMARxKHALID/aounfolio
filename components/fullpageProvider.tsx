@@ -9,8 +9,6 @@ import SplitType from "split-type";
 import { useAppDispatch } from "@/hooks/reduxHooks";
 import { setActiveSlide } from "@/redux/states/fullpageSlice";
 import { splineSceneVisibility } from "@/redux/states/splineSlice";
-// import Lottie from "lottie-web";
-// import fullpage from "@fullpage/react-fullpage";
 
 const opts = {
   autoScrolling: true,
